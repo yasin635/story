@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+</head>
+<body>
+<h1>
+    {% if username %}
+        Hello {{ username }}
+        {% else %}
+        请先登录！
+    {% endif %}
+</h1>
+</body>
+</html>
